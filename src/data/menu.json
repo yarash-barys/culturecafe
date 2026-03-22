@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "id": "przystawki",
+      "name": "Przystawki",
+      "items": [
+        {
+          "id": "bruschetta",
+          "name": "Bruschetta z pomidorami",
+          "proteins": 5.2,
+          "fats": 8.1,
+          "carbs": 22.4,
+          "kcal": 185
+        },
+        {
+          "id": "hummus",
+          "name": "Hummus z pitą i warzywami",
+          "proteins": 8.4,
+          "fats": 11.2,
+          "carbs": 28.6,
+          "kcal": 245
+        },
+        {
+          "id": "caprese",
+          "name": "Sałatka caprese",
+          "proteins": 9.8,
+          "fats": 14.3,
+          "carbs": 6.2,
+          "kcal": 195
+        },
+        {
+          "id": "zupa-cebulowa",
+          "name": "Tatar z łososia",
+          "proteins": 18.5,
+          "fats": 9.7,
+          "carbs": 3.1,
+          "kcal": 175
+        }
+      ]
+    },
+    {
+      "id": "zupy",
+      "name": "Zupy",
+      "items": [
+        {
+          "id": "zupa-pomidorowa",
+          "name": "Zupa pomidorowa z makaronem",
+          "proteins": 6.3,
+          "fats": 4.8,
+          "carbs": 32.5,
+          "kcal": 198
+        },
+        {
+          "id": "zupa-krem-dynia",
+          "name": "Krem z dyni z pestkami",
+          "proteins": 4.1,
+          "fats": 9.2,
+          "carbs": 22.8,
+          "kcal": 188
+        },
+        {
+          "id": "zurek",
+          "name": "Żurek staropolski z jajkiem",
+          "proteins": 11.4,
+          "fats": 12.6,
+          "carbs": 18.3,
+          "kcal": 232
+        }
+      ]
+    },
+    {
+      "id": "dania-glowne",
+      "name": "Dania główne",
+      "items": [
+        {
+          "id": "kotlet-schabowy",
+          "name": "Kotlet schabowy z ziemniakami",
+          "proteins": 38.2,
+          "fats": 22.4,
+          "carbs": 45.6,
+          "kcal": 548
+        },
+        {
+          "id": "pierogi-ruskie",
+          "name": "Pierogi ruskie (8 szt.)",
+          "proteins": 14.8,
+          "fats": 10.3,
+          "carbs": 52.4,
+          "kcal": 362
+        },
+        {
+          "id": "kurczak-grillowany",
+          "name": "Filet z kurczaka z ryżem i sałatą",
+          "proteins": 44.6,
+          "fats": 8.9,
+          "carbs": 38.2,
+          "kcal": 412
+        },
+        {
+          "id": "lazania",
+          "name": "Lasagne z mięsem mielonym",
+          "proteins": 28.3,
+          "fats": 19.7,
+          "carbs": 41.5,
+          "kcal": 455
+        },
+        {
+          "id": "losos-pieczony",
+          "name": "Pieczony łosoś z warzywami",
+          "proteins": 36.8,
+          "fats": 18.2,
+          "carbs": 12.4,
+          "kcal": 358
+        }
+      ]
+    },
+    {
+      "id": "desery",
+      "name": "Desery",
+      "items": [
+        {
+          "id": "sernik",
+          "name": "Sernik warszawski",
+          "proteins": 8.6,
+          "fats": 18.4,
+          "carbs": 38.2,
+          "kcal": 348
+        },
+        {
+          "id": "tiramisu",
+          "name": "Tiramisu",
+          "proteins": 7.2,
+          "fats": 22.1,
+          "carbs": 34.6,
+          "kcal": 368
+        },
+        {
+          "id": "szarlotka",
+          "name": "Szarlotka z lodami",
+          "proteins": 5.4,
+          "fats": 14.8,
+          "carbs": 52.3,
+          "kcal": 362
+        }
+      ]
+    },
+    {
+      "id": "napoje",
+      "name": "Napoje",
+      "items": [
+        {
+          "id": "kawa-latte",
+          "name": "Kawa latte (300 ml)",
+          "proteins": 4.2,
+          "fats": 4.8,
+          "carbs": 12.6,
+          "kcal": 112
+        },
+        {
+          "id": "sok-pomaranczowy",
+          "name": "Sok pomarańczowy świeżo wyciskany",
+          "proteins": 1.8,
+          "fats": 0.4,
+          "carbs": 24.2,
+          "kcal": 105
+        },
+        {
+          "id": "herbata",
+          "name": "Herbata z cytryną i miodem",
+          "proteins": 0.3,
+          "fats": 0.1,
+          "carbs": 18.4,
+          "kcal": 75
+        },
+        {
+          "id": "smoothie",
+          "name": "Smoothie owocowe (400 ml)",
+          "proteins": 3.6,
+          "fats": 1.2,
+          "carbs": 38.8,
+          "kcal": 178
+        }
+      ]
+    }
+  ]
+}
