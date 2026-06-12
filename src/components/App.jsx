@@ -3,6 +3,7 @@ import { useCart } from "../hooks/useCart";
 import CategoryTabs from "./CategoryTabs";
 import MenuList from "./MenuList";
 import SummaryBar from "./SummaryBar";
+import logoDark from "../assets/logo-dark.svg";
 
 // Paste your published CSV URL here (File → Share → Publish to web → CSV)
 const SHEET_CSV_URL = import.meta.env.VITE_SHEET_CSV_URL || "";
@@ -90,13 +91,10 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white border-b border-gray-100 shadow-sm">
+    <div className="min-h-screen bg-[#FAFAF5]">
+      <header className="border-top-b border-gray-100 shadow-sm">
         <div className="max-w-2xl mx-auto px-4 py-4">
-          <h1 className="text-xl font-bold text-gray-900 tracking-tight">
-            Kalkulator kalorii
-          </h1>
-          <p className="text-sm text-gray-500 mt-0.5">Culture Café</p>
+          <img src={logoDark} alt="Culture Café" className="h-10 mx-auto" />
         </div>
       </header>
 

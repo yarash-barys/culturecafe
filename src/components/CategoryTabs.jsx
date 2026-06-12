@@ -1,7 +1,7 @@
 export default function CategoryTabs({ categories, activeId, onSelect }) {
   return (
-    <div className="sticky top-0 z-10 bg-white border-b border-gray-100 shadow-sm">
-      <div className="flex overflow-x-auto scrollbar-hide px-4 gap-2 py-3">
+    <div className="sticky top-0 z-10 border-top-b border-gray-100">
+      <div className="flex justify-center overflow-x-auto scrollbar-hide px-4 gap-2 py-3">
         {categories.map((cat) => {
           const isActive = cat.id === activeId;
           return (
@@ -13,7 +13,7 @@ export default function CategoryTabs({ categories, activeId, onSelect }) {
                 transition-colors duration-150 min-h-[44px] whitespace-nowrap
                 ${
                   isActive
-                    ? "bg-amber-500 text-white shadow-sm"
+                    ? "bg-[#A78862] text-white shadow-sm"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200 active:bg-gray-300"
                 }
               `}
